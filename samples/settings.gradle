@@ -1,6 +1,7 @@
 include ':counter'
 include ':jest'
 include ':robot'
+include ':loading'
 
 includeBuild('..') {
 	dependencySubstitution {
